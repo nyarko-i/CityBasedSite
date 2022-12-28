@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    color: black;
+    background-color: tomato;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: x-large;
+}
+img.image-style {
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.menu-container{
+    color: brown;
+    background-color: red;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    display: block;
+}
+
+.menu {
+    
+    display: flex;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    justify-content: space-between;
+}
+
+.wrap-around {
+    float: left;
+    margin: 0 0.75em 0 0.75em;
+}
+
+.main-container {
+    display: flex;
+    color: blue;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.main {
+    font-size: xx-large;
+}
+
+.style {
+    font-size: larger;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first {
+    font-size: medium;
+    text-align: left;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    height: 100px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-two,
+.footer-three {
+    background-color: lightcoral;
+    flex: initial;
+    width: 900px;
+    text-align: center;
+    font-size: xx-large;
+}
