@@ -1,7 +1,10 @@
 #header{
-    background-color:white;
+    /*background-color: #fff;*/
+    display: flex;
+    justify-content: center;
     width:100%;
-    height:4em;
+    height: 20em;
+    
     margin-top:-1em;
     font-family: Euclid Flex,MetaPlus,system-ui,BlinkMacSystemFont,-apple-system,
     Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,
@@ -10,8 +13,8 @@
 }
 
 #fsthead{
-    background-color:#8ce2d0;
-    width:110%;
+    background-color:#FFD700;
+    width:100%;
     height:2.5em;
     margin:-9px -10px 0 -10px;
     
@@ -19,7 +22,8 @@
 
 ul{
     text-align:center;
-    padding-top: 1em;
+    /*padding-top: -20em;*/
+    
 }
 
 li{
@@ -27,5 +31,31 @@ li{
     text-align:center;
     display:inline;
     margin:0 2em;
-     color:#050540;
+    color:#050540;
+    
 }
+
+#header img {
+    padding-top: 10px;
+    height: 60%;
+    width: auto;
+    margin-left: -20em;
+    margin-top: 3em;
+    float: none;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+iframe {
+    display: block;
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    margin: 10px auto;
+  }
+  
